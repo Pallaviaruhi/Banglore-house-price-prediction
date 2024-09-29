@@ -25,8 +25,11 @@ The goal of this project is to predict house prices in Bangalore using features 
 The dataset includes the following features:
 
 BHK (Number of bedrooms)
+
 Square footage (Total area of the house)
+
 Number of bathrooms
+
 Location (categorical)
 
 ### Data Preprocessing
@@ -54,36 +57,31 @@ Accuracy: 81.83%
 
 K-Fold Cross Validation Accuracy (5-fold): ~80%
 
-Performance metrics:
-
-R-squared: X (fill with actual result)
-
-Mean Absolute Error (MAE): X (fill with actual result)
-
 ### Installation
 Clone the repository:
-bash
-Copy code
+
 git clone https://github.com/yourusername/house-price-prediction.git
+
 Install dependencies:
-bash
-Copy code
+
 pip install -r requirements.txt
 
 ### Usage
 After installing dependencies, you can run the model using the following command:
 
-bash
-Copy code
 python predict.py --input <input-data>
+
 Example input:
 
 json
-Copy code
+
 {
   "BHK": 3,
+  
   "SquareFootage": 1500,
+  
   "Bathrooms": 2,
+  
   "Location": "Indira Nagar"
 }
 
