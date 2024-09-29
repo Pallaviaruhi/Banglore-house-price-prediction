@@ -9,9 +9,13 @@ Dataset
 Data Preprocessing
 
 Modeling and Hyperparameter Tuning
+
 Results
+
 Installation
+
 Usage
+
 Future Work
 
 ### Project Overview
@@ -29,21 +33,31 @@ Location (categorical)
 Steps taken for data preprocessing:
 
 Data Cleaning: Handled missing values and removed outliers.
+
 Feature Engineering: Applied one-hot encoding for categorical variables (location).
+
 Scaling: Standardized the numerical features (BHK, square footage, bathrooms) to improve model performance.
 
 ### Modeling and Hyperparameter Tuning
 Models evaluated: Linear Regression, Lasso Regression, and Decision Tree Regressor.
+
 K-Fold Cross Validation was implemented (5-fold) with Linear Regression, achieving an average accuracy of 80%.
+
 GridSearchCV was used for hyperparameter tuning to optimize model performance.
+
 The final model, Linear Regression, achieved an accuracy of 81.83% on the test set.
 
 ### Results
 Final Model: Linear Regression
+
 Accuracy: 81.83%
+
 K-Fold Cross Validation Accuracy (5-fold): ~80%
+
 Performance metrics:
+
 R-squared: X (fill with actual result)
+
 Mean Absolute Error (MAE): X (fill with actual result)
 
 ### Installation
@@ -75,5 +89,7 @@ Copy code
 
 ### Future Work
 Implement additional machine learning algorithms such as XGBoost or LightGBM.
+
 Perform more advanced feature engineering, like adding geographical data for better predictions.
+
 Explore UI/UX integration to build an interactive web interface.
