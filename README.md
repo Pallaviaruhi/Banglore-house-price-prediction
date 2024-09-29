@@ -3,8 +3,11 @@ This project focuses on predicting house prices in Bangalore based on features s
 
 ## Table of Contents
 Project Overview
+
 Dataset
+
 Data Preprocessing
+
 Modeling and Hyperparameter Tuning
 Results
 Installation
